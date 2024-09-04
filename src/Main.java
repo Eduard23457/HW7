@@ -26,7 +26,7 @@ public class Main {
 
         System.out.println("Задача 3");
         int population = 12_000_000;
-        for (int year = 1; year <= 10; year++){
+        for (int year = 1; year <= 10; year++) {
             int birth = 17 * population / 1000;
             int dead = 8 * population / 1000;
             population = population + birth - dead;
@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Задача 4");
         int year1 = 0;
         int sum = 15_000;
-         total = 0;
+        total = 0;
         int percent = 15_000 * 7 / 100;
         while (total < 12_000_000) {
             year1 = year1 + 1;
@@ -78,13 +78,14 @@ public class Main {
             int yearBefore = 2024 - 200;
             int yearAfter = 2024 + 100;
             int count2 = 0;
-            for (year2 = yearBefore; year2 < yearAfter; year2 ++) {
-                if(year2 % 79 == 0) {
-                    System.out.println(year2); }
-
+            for (year2 = yearBefore; year2 < yearAfter; year2++) {
+                if (year2 % 79 == 0) {
+                    System.out.println(year2);
                 }
+
             }
         }
+    }
 }
 
 
